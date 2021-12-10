@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "My first homepage",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nayguelsilva/studion_nayguel.git"
+  },
+  "keywords": [
+    "HTLM",
+    "CSS",
+    "Javascript"
+  ],
+  "author": "Nayguel Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nayguelsilva/studion_nayguel/issues"
+  },
+  "homepage": "https://github.com/nayguelsilva/studion_nayguel#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
