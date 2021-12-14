@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -22,27 +22,29 @@ ul{
 
 }
 
-li {
-    margin-right: 0.625rem;
-}
-
 .navbar {
-   position: fixed;
-   display: grid;
-   grid-template-columns: 1fr 9fr;
-   align-items: center;
-   top: 0;
-   left: 0;
-   padding: 0 1rem;
-
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 0 1rem;
+    
    width: 100%;
-
-
+   
+   
    background-color: #000;
    color:#fff;
 }
 .navbar__links{
     justify-self: end;
+}
+
+.navbar__links li {
+    font-size: 0.875rem;
+    margin-right: 3rem;
+    text-transform: uppercase;
 }
 
 .navbar__links a{
@@ -52,5 +54,10 @@ li {
 
 .navbar__links a:hover {
     color: var(--color-primary);
+    
 
+}
+
+.logo--studion {
+    font-weight: 900;
 }
